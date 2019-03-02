@@ -1,29 +1,44 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A.A programming language is a formal language, which comprises a set of instructions used to produce various kinds of output. Programming languages are used to create programs that implement specific algorithms.
+Example:  C++, Java, python etc.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. Java Development Kit contains below components -
+     1.The Runtime Interpreter - The Java runtime interpreter (java) is a stand-alone version of the Java interpreter built into the HotJava browser. The runtime interpreter provides the support to run Java executable programs in compiled, bytecode format.
+     2.The Compiler - The Java compiler (javac) is used to compile Java source code files into executable Java bytecode classes. In Java, source code files have the extension .java.
+     3.The Applet Viewer - AppletViewer is a standalone command-line program from Sun to run Java applets. Appletviewer is generally used by developers for testing their applets before deploying them to a website. As a Java developer, it is a preferred option for running Java applets that do not involve the use of a web browser.
+     4.The Debugger -Debugging is the routine process of locating and removing computer program bugs, errors or abnormalities, which is methodically handled by software programmers via debugging tools. Debugging checks, detects and corrects errors or bugs to allow proper program operation according to set specifications.
+     5.The Class File Disassembler- The javap command disassembles one or more class files. Its output depends on the options used. If no options are used, javap prints out the package, protected, and public fields and methods of the classes passed to it. javap prints its output to stdout.
+     6.The Header and Stub File Generator - javah produces C header files and C source files from a Java class. These files provide the connective glue that allow your Java and C code to interact.),
+     7.The Documentation Generator - The Javadoc™ tool parses the declarations and documentation comments in a set of Javasource files and produces a corresponding set of HTML pages describing (by default) the public and protected classes, nested classes (but not anonymous inner classes), interfaces, constructors, methods, and fields.
+     8.Applet Demos - JDK 1.4 Demo Applets. example1.html. Running an applet in a browser requires the Java TMPlug-in be installed. The AppletViewer is provided with the JDK, ...)
+     9.API Source Code- Application Programming Interface (API) is a software intermediary that allows two applications to talk to each other. It's the messenger that delivers your request to the provider that you're requesting it from and then delivers the response back to you)
+   Source code is the actual code that is executed. It includes code that is interpreted (ex: Java) and code that is compiled and executed (ex: C++)
 
 What is IDE?
-A.
+A. Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+A. Eclipse, IntelliJ, BlueJ, jEdit, jGRASP etc
+
 Explain the entire java life cycle.
+
 what is class?
+
 What is object?
+
 What is the entry point of an application?
+
 Why main is static?
+
 Which class is the superclass of all classes?
+
 What is difference between path and classpath variables?
+
 What is the difference between an Interface and Abstract class?
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
 What is OOP ? Define each feature of java OOP.
