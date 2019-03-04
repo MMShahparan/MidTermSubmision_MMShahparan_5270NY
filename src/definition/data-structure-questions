@@ -11,23 +11,8 @@ A. Operations on Data Structures. The basic operations that are performed on dat
    Deletion: Deletion means removal of a data element from a data structure if it is found.
 
 List out the areas in which data structures are applied extensively?
- A. The name of areas are:
-
-   · Compiler Design,
-
-   · Operating System,
-
-   · Database Management System,
-
-   · Statistical analysis package,
-
-   · Numerical Analysis,
-
-   · Graphics,
-
-   · Artificial Intelligence,
-
-   · Simulation
+ A. The name of areas are: Compiler Design, Operating System, Database Management System, Statistical analysis package,
+ Numerical Analysis, Graphics, Artificial Intelligence, Simulation.
 
 what is an Array?
 A. Array is a data structure consisting of a collection of elements, each identified by at least one array index or key.
@@ -38,7 +23,7 @@ while ArrayList is a variable length Collection class.
 
 what is LinkedList?
 A. A Linked list is a linear collection of data elements, whose order is not given by their physical placement in memory.
-   Instead, each element points to the next.
+Instead, each element points to the next.
 
 How is an Array different from Linked List?
 A.In array, each element is independent and can be accessed using it's index value. In case of a linked list, each node/element points to the next, previous, or maybe both nodes.
@@ -49,7 +34,8 @@ A. A Queue is a linear structure which follows a particular order in which the o
 The order is First In First Out (FIFO).
 
 what is stack?
-
+A. Java Collection framework provides a Stack class which models and implements Stack data structure. The class is based on the basic principle of last-in-first-out. ... Object push(Object element) : Pushes an element on the top of the stack. Object pop() : Removes and returns the top element of the stack.
+Java Program to Implement Stack. ... The relation between the push and pop operations is such that the stack is a Last-In-First-Out (LIFO) data structure. The implemented stack has bounded capacity.
 
 what is FIFO and LIFO?
 A. A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle.
@@ -64,8 +50,10 @@ This means that it is a certain mathematical expression of the size of the input
 
 
 what is the best case to search an element from an array?
+A. Binary search.
 
 what is the worst case to search an element from an array?
+A. Hypothatical data set.
 
 what is tree in data structure?
 A. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
@@ -113,6 +101,12 @@ A.Big O notation is used in Computer Science to describe the performance or comp
 and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
+A. Time Complexities of all Sorting Algorithms -
+Algorithm	                Time Complexity
+                Best	     Average
+Bubble Sort	    Ω(n)	     θ(n^2)
+Insertion Sort	Ω(n)	     θ(n^2)
+Heap Sort	    Ω(n log(n))	 θ(n log(n))
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

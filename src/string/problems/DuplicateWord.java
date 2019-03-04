@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-
 /**
  * Created by mrahman on 04/22/17.
  */
@@ -19,6 +18,7 @@ public class DuplicateWord {
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
         duplicate(st);
     }
+
     public static void duplicate(String str){
         String []a = str.split(" ");
         //for(String x:a)
