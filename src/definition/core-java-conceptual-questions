@@ -14,8 +14,8 @@ A. Java Development Kit contains below components -
      6.The Header and Stub File Generator - javah produces C header files and C source files from a Java class. These files provide the connective glue that allow your Java and C code to interact.),
      7.The Documentation Generator - The Javadoc™ tool parses the declarations and documentation comments in a set of Javasource files and produces a corresponding set of HTML pages describing (by default) the public and protected classes, nested classes (but not anonymous inner classes), interfaces, constructors, methods, and fields.
      8.Applet Demos - JDK 1.4 Demo Applets. example1.html. Running an applet in a browser requires the Java TMPlug-in be installed. The AppletViewer is provided with the JDK, ...)
-     9.API Source Code- Application Programming Interface (API) is a software intermediary that allows two applications to talk to each other. It's the messenger that delivers your request to the provider that you're requesting it from and then delivers the response back to you)
-   Source code is the actual code that is executed. It includes code that is interpreted (ex: Java) and code that is compiled and executed (ex: C++)
+     9.API Source Code- Application Programming Interface (API) is a software intermediary that allows two applications to talk to each other. It's the messenger that delivers our request to the provider that we are requesting it from and then delivers the response back to us)
+        Source code is the actual code that is executed. It includes code that is interpreted (ex: Java) and code that is compiled and executed (ex: C++).
 
 What is IDE?
 A. Integrated Development Environment
