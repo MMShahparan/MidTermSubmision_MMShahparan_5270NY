@@ -91,7 +91,7 @@ public class ConnectToSqlDB {
             ps.executeUpdate();
 //            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
 
-            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT," + columnName + "  bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
+            ps = connect.prepareStatement("CREATE TABLE `"+ tableName +"` (`ID` int(11) NOT NULL AUTO_INCREMENT," + columnName + "  bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
 
 
             ps.executeUpdate();
